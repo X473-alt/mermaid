@@ -1,18 +1,16 @@
-# Tutorials
-
-This is a list of publicly available Tutorials for using Mermaid.JS and is intended as a basic introduction for the use of the Live Editor for generating diagrams, and deploying Mermaid.JS through HTML.
-
-**Note that these tutorials might display an older interface, but the usage of the live-editor will largely be the same.**
-
-For most purposes, you can use the [Live Editor](https://mermaid.live), to quickly and easily render a diagram.
-
-## Live-Editor Tutorials
-
-The definitions that can be generated the Live-Editor are also backwards-compatible as of version 8.7.0.
-
-[Chris Chinchilla: Hands on - Text-based diagrams with Mermaid](https://www.youtube.com/watch?v=4_LdV1cs2sA)
-
-[GitLab Unfiltered: How to Create Mermaid Diagrams](https://www.youtube.com/watch?v=SQ9QmuTHuSI&t=438s)
+graph TB
+    A[Board of Directors]
+    A --> B[Chief Executive Officer (CEO)]
+    B --> C[Chief Financial Officer (CFO)]
+    B --> D[Chief Operations Officer (COO)]
+    B --> E[Chief Marketing Officer (CMO)]
+    C --> F[Finance Department]
+    D --> G[Operations Department]
+    E --> H[Marketing Department]
+    F --> I[Employees]
+    G --> J[Employees]
+    H --> K[Employees]
+    
 
 [GitLab Unfiltered: Emilie adds a mermaid diagram to the handbook](https://www.youtube.com/watch?v=5RQqht3NNSE)
 
